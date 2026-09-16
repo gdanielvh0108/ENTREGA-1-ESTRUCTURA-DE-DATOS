@@ -28,3 +28,7 @@ Juego de cartas por turnos implementado en *C++*, donde cada jugador compite par
 
 ## 📐 Diagrama UML
 
+
+<img width="1536" height="1024" alt="d1923efb-d915-4f9a-96b3-d438a463f09d" src="https://github.com/user-attachments/assets/0f2dc3de-3783-4a90-a859-d1686f99d63e" />
+
+
