@@ -26,31 +26,5 @@ Juego de cartas por turnos implementado en *C++*, donde cada jugador compite par
 ## 🏗️ Estructura del proyecto
 
 
-/src
-  ├── Carta.h / Carta.cpp
-  ├── Condicion.h / Condicion.cpp
-  ├── Jugador.h / Jugador.cpp
-  ├── Mazo.h / Mazo.cpp
-  ├── Ronda.h / Ronda.cpp
-  ├── Partida.h / Partida.cpp
-  └── main.cpp
-/docs
-  └── UML.md
-README.md
-
-
-## ⚙️ Compilación
-
-bash
-g++ -std=c++17 -o juego src/*.cpp
-./juego
-
-
 ## 📐 Diagrama UML
-
-Ver [docs/UML.md](docs/UML.md) para el diagrama de clases completo.
-
-## 👥 Autores
-
-- (Agrega tu nombre y el de tu equipo aquí)
 
