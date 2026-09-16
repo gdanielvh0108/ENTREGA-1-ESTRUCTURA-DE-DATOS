@@ -1,2 +1,56 @@
+# 🎴 Juego de Cartas: Alto/Bajo por Color
 
+Juego de cartas por turnos implementado en *C++*, donde cada jugador compite para cumplir la condición (color e intensidad) impuesta por el jugador que inicia cada ronda.
+
+## 📜 Descripción del juego
+
+- Se juega con un número variable de jugadores (definido al iniciar la partida).
+- Cada jugador recibe *6 cartas: 3 de color **Amarillo* y 3 de color *Naranja, cada una con una **intensidad* entre 1 y 10.
+- Un jugador aleatorio inicia la primera ronda.
+
+### Mecánica de una ronda
+
+1. El *jugador iniciador* declara una *condición: un color (Amarillo/Naranja) y una dirección (Alto/Bajo). Ejemplo: *"Amarillo, bajito".
+2. El iniciador juega una carta de su mano.
+3. Los demás jugadores, en orden de turno, juegan una carta de su mano (pueden elegir cualquiera, pero si no coincide con el color pedido, *no pueden ganar* esa ronda).
+4. Se determina el ganador: entre quienes jugaron el color pedido, gana quien tenga la intensidad *más baja* (si la condición fue "Bajo") o *más alta* (si fue "Alto").
+5. *Caso especial:* si ningún jugador (ni siquiera el iniciador) jugó el color pedido, la ronda se *repite* — las cartas jugadas vuelven a la mano de sus dueños y el mismo iniciador vuelve a declarar condición.
+6. El ganador de la ronda recibe todas las cartas jugadas por los demás jugadores y se convierte en el iniciador de la siguiente ronda.
+
+### Fin del juego
+
+- Se juegan un total de *5 rondas*.
+- Cada carta en posesión de un jugador vale *1 punto*.
+- Gana la partida quien termine con más cartas (más puntos) al finalizar la ronda 5.
+
+## 🏗️ Estructura del proyecto
+
+
+/src
+  ├── Carta.h / Carta.cpp
+  ├── Condicion.h / Condicion.cpp
+  ├── Jugador.h / Jugador.cpp
+  ├── Mazo.h / Mazo.cpp
+  ├── Ronda.h / Ronda.cpp
+  ├── Partida.h / Partida.cpp
+  └── main.cpp
+/docs
+  └── UML.md
+README.md
+
+
+## ⚙️ Compilación
+
+bash
+g++ -std=c++17 -o juego src/*.cpp
+./juego
+
+
+## 📐 Diagrama UML
+
+Ver [docs/UML.md](docs/UML.md) para el diagrama de clases completo.
+
+## 👥 Autores
+
+- (Agrega tu nombre y el de tu equipo aquí)
 
