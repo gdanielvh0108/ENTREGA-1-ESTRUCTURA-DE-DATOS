@@ -25,7 +25,6 @@ Juego de cartas por turnos implementado en *C++*, donde cada jugador compite par
 
 ## 🏗️ Estructura del proyecto
 
-
 ```
 ENTREGA-1-ESTRUCTURA-DE-DATOS/
  ├── src/
@@ -37,9 +36,13 @@ ENTREGA-1-ESTRUCTURA-DE-DATOS/
  │    ├── GestorArchivo.h / GestorArchivo.cpp
  │    └── main.cpp
  ├── .gitignore
+ ├── juego.exe
  └── README.md
 ```
 
+Cada clase está declarada en su propio archivo `.h` (interfaz) e implementada en su `.cpp` correspondiente (lógica), y todas se invocan desde `main.cpp` mediante `#include`.
+
+`juego.exe` es el ejecutable ya compilado, listo para correr sin necesidad de instalar un compilador.
 Cada clase está declarada en su propio archivo `.h` (interfaz) e implementada en su `.cpp` correspondiente (lógica), y todas se invocan desde `main.cpp` mediante `#include`.
 
 ## 📐 Diagrama UML
