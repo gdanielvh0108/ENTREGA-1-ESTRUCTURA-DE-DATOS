@@ -24,7 +24,7 @@ Juego de cartas por turnos implementado en *C++*, donde cada jugador compite par
 - Gana la partida quien termine con más cartas (más puntos) al finalizar la ronda 5.
 
 ## 🏗️ Estructura del proyecto
-## 🏗️ Estructura del proyecto
+
 
 ```
 ENTREGA-1-ESTRUCTURA-DE-DATOS/
