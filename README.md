@@ -26,6 +26,22 @@ Juego de cartas por turnos implementado en *C++*, donde cada jugador compite par
 ## 🏗️ Estructura del proyecto
 
 
+```
+ENTREGA-1-ESTRUCTURA-DE-DATOS/
+ ├── src/
+ │    ├── Color.h / Color.cpp
+ │    ├── Condicion.h / Condicion.cpp
+ │    ├── Carta.h / Carta.cpp
+ │    ├── Jugador.h / Jugador.cpp
+ │    ├── Juego.h / Juego.cpp
+ │    ├── GestorArchivo.h / GestorArchivo.cpp
+ │    └── main.cpp
+ ├── .gitignore
+ └── README.md
+```
+
+Cada clase está declarada en su propio archivo `.h` (interfaz) e implementada en su `.cpp` correspondiente (lógica), y todas se invocan desde `main.cpp` mediante `#include`.
+
 ## 📐 Diagrama UML
 
 
